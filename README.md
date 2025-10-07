@@ -25,6 +25,20 @@ Built with **React/Next.js** • **Node.js/Express** • **OpenAI GPT-4** • **
 
 ---
 
+## ✨ Features
+
+### 🔥 **NEW: Real-Time Job Monitoring**
+- **Instant Detection**: Checks for new jobs every 2 minutes
+- **Auto-Apply**: Automatically applies as soon as jobs are posted
+- **Multiple Watches**: Monitor different job searches simultaneously
+- **Smart Filtering**: Remote preference, salary requirements, experience level
+- **Email Alerts**: Get notified immediately when new jobs are found
+- **Competitive Advantage**: Be one of the first applicants!
+
+**[📖 Real-Time Monitoring Guide](docs/REAL-TIME-MONITORING.md)** - Complete documentation
+
+---
+
 ## Features
 
 ### 🎯 Multi-Platform Job Search
