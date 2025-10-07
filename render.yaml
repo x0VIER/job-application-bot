@@ -1,0 +1,40 @@
+services:
+  # Backend Service
+  - type: web
+    name: job-application-bot-backend
+    runtime: node
+    region: oregon
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && node server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
+      - key: DAILY_LIMIT
+        value: 50
+
+  # Frontend Service
+  - type: web
+    name: job-application-bot-frontend
+    runtime: node
+    region: oregon
+    plan: free
+    buildCommand: cd frontend && corepack enable && pnpm install && pnpm build
+    startCommand: cd frontend && pnpm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          type: web
+          name: job-application-bot-backend
+          property: host

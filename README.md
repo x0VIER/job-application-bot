@@ -1,10 +1,29 @@
-# Job Application Bot 🤖
+<div align="center">
 
-An intelligent, full-stack web application that automates job applications across multiple platforms including LinkedIn, Indeed, Glassdoor, and Upwork. Built with React/Next.js frontend and Node.js/Express backend, featuring AI-powered resume optimization and real-time application tracking.
+# 🤖 Job Application Bot
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)
-![React](https://img.shields.io/badge/react-19.1.0-blue.svg)
+### *Automate Your Job Search with AI-Powered Intelligence*
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org)
+[![React](https://img.shields.io/badge/react-19.1.0-blue.svg)](https://react.dev)
+[![Next.js](https://img.shields.io/badge/next.js-15.5.4-black)](https://nextjs.org)
+[![Python](https://img.shields.io/badge/python-3.7+-blue)](https://python.org)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+**[Features](#features) • [Demo](#testing-results) • [Installation](#installation) • [CLI Usage](#python-cli) • [Documentation](#api-documentation) • [Deploy](#deployment)**
+
+---
+
+### 🎯 Intelligent full-stack web application for automated job applications
+
+Supports **LinkedIn** • **Indeed** • **Glassdoor** • **Upwork**
+
+Built with **React/Next.js** • **Node.js/Express** • **OpenAI GPT-4** • **Puppeteer**
+
+</div>
+
+---
 
 ## Features
 
@@ -61,6 +80,31 @@ An intelligent, full-stack web application that automates job applications acros
 - **OpenAI API** - AI-powered content generation
 - **Node-Cron** - Job scheduling
 - **Nodemailer** - Email notifications
+
+## Python CLI
+
+### 🐍 Command-Line Interface
+
+Use the bot directly from your terminal with our Python CLI!
+
+```bash
+cd cli
+pip3 install -r requirements.txt
+python3 job_bot.py search
+python3 job_bot.py apply
+python3 job_bot.py stats
+```
+
+**Features:**
+- 🎨 Beautiful terminal UI with colors and tables
+- 🔍 Search jobs from command line
+- 📝 Apply to jobs with one command
+- 📊 View statistics and track progress
+- ⚙️ Easy configuration management
+
+**[📖 Complete CLI Documentation](cli/README.md)** - Step-by-step guide for beginners!
+
+---
 
 ## Installation
 
