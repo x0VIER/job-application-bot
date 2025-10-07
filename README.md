@@ -366,6 +366,8 @@ For questions, issues, or feature requests:
 
 ---
 
-**Made with ❤️ by developers, for job seekers**
+## Author
+
+**Created by x0VIER**
 
 *Star ⭐ this repository if you find it helpful!*
